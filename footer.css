@@ -1,0 +1,58 @@
+.partnership ul{
+    border:10px solid #d8e4f4;
+    background-color: #d8e4f4;
+    margin: 0em;
+}
+.partnership li{
+    display: inline-block;
+    background-color: #d8e4f4;
+    padding: 3%;
+    position: relative;
+    bottom: 10px;
+}
+.partnership li img{
+    width: 100px;
+    height: 100px;
+}
+.partnership .wide img{
+    width: 200px;
+    height: 100px;
+}
+.partnership .tervis img{
+    width: 150px;
+    height: 150px;
+    position: relative;;
+    top: 30px;
+}
+.partnership .alpaka img{
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+    color: white;
+    background-color: #084cac;
+    padding: 20px;
+    font-size: 16px;
+}
+.footer .copyright{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    position: relative;
+    top: 28px;
+    left: 73%;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+.footer li{
+    position: relative;
+    display: inline-block; 
+    width: 300px;
+}
+.footer i{
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer strong{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
