@@ -35,6 +35,7 @@ h2{
 .destination h2{
     width: 100%;
     text-align: center;
+    padding: 20px;
 }
 .images{
     text-align: center;

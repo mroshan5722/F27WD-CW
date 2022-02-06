@@ -1,0 +1,28 @@
+h2{
+text-align: center;
+}
+.bus{
+    text-align: center;
+}
+.bus img{
+    margin: 0px 0px;
+    display: inline;
+    width: 60%;
+    margin: 30px 30px;
+    border-radius: 120px;
+    border: 7px solid #084cac;
+}
+.bus1{
+    background-color: #d8e4f8;
+    padding: 20px;
+    font-size: 20px;
+}
+.bus1 p{
+    line-height: 35px;
+    text-align: center;
+}
+.bus2{
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+}

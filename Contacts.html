@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Us |PETERS BUSS AB</title>
+        <meta name="viewport" content="width=500px, initial-scale=1.0">
+        <link rel="stylesheet" href="banner.css">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Content.css">
+
+        <title>Contact us | PETERS BUSS AB</title>
     </head>
     <body>
-        <div id="banner">
-            <img src="Images/Logo.jpg" alt="Logo">
-            <h1 class="site-title"><a href="index.html">PETERS BUSS AB</a></h1>
-            <div id="site-description">A nice way to travel and socialize!</div>
-            <img src="Images/Banner.jpg" width="900" height="500" alt="Banner" />
-        </div>
-        <div id="navigation-bar">
+        <section class="banner">
+            <img src="Images/Banner.jpg" alt="Banner" />
+            <div class="title"><h1>PETERS BUSS AB</h1></div>
+            <div class="description"><p>A nice way to travel and socialize!</p></div>
+        </section>
+        <header class="logo">
+            <img src="Images/Logo png.PNG" alt="Logo">
+        </header>
+        <div class="search">
+            <input class="search-txt" type="text" name="" placeholder="Type to search...">
+            <a class="search-btn" href="#"></a>
+            <i class="fa fa-search"></i></div>
+        <nav class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="SPATripsDatesPrices.html">SPA Trips: Dates and Prices</a></li>
-                <ul>
-                    <li><a href="SPATravelinfo.html">SPA Travel Info</a></li>
-                </ul>
-                <li><a href="TallinnCruises.html">Tallinn cruises</a></li>
-                <li><a href="SummerTrips5Days.html">Summer trips 5 days</a></li>
-                <li><a href="AboutUs.html">About us</a></li>
-                <ul>
-                    <li><a href="Brochures.html">Brochures</a></li>
-                    <li><a href="Buses.html">Our Buses</a></li>
-                    <li><a href="Contacts.html">Contacts</a></li>
-                    <li><a href="FAQ.html">Common Questions</a></li>
-                </ul>
-                <li><a href="TravelConditions.html">Travel conditions</a></li>
+                <li class="dropdown">
+                    <a href="SPATripsDatesPrices.html" class="dropbtn">SPA Trips</a>
+                    <div class="dropdown-content">
+                        <a href="SPATravelinfo.html">SPA Travel Info</a>
+                    </div>
+                </li>
+                <li><a href="TallinnCruises.html">Tallinn cruises</a></li> 
+                <!-- <li><a href="SummerTrips5Days.html">Summer trips 5 days</a></li> -->
+                <li class="dropdown">
+                    <a href="AboutUs.html">About us</a>
+                    <div class="dropdown-content">
+                        <a href="Buses.html">Our Buses</a>
+                        <a href="Contacts.html">Contacts</a>
+                        <a href="FAQ.html">Common Questions</a>
+                    </div>
+                </li>
+                <li style><a href="TravelConditions.html">Travel conditions</a></li>
             </ul>
-        </div>
-        <div id="main-page">
-            <h3>Contact Us:</h3>
+        </nav>
+        <div class="content"">
+            <h2>Contact Us: 📞</h2>
             <p>Peters Buss AB <br>
                 Vallvägen 8 C <br>
                 680 51 Stöllet <br>
@@ -42,27 +59,25 @@
                 Lunch break 13:00 - 14:00
                 </p>
             <p>Email us: peter@petersbuss.se</p>
-            <h1>Add map</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.4814518450112!2d13.271808615465227!3d60.404242131415444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4642961975019991%3A0xf16d6e9bd475cc76!2sPeters%20Buss%20AB!5e0!3m2!1sen!2sae!4v1643966403235!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="partnership">
                 <ul class="partnership-images">
-                    <li><img src="Images/Boka-resa.jpg" alt="BOka-Resa">Boka Resa</li>
-                    <li><img src="Images/Tallink.jpg" alt=Tallink">Tallink</li>
-                    <li><img src="Images/Tervis.png" alt="Tervis">Tervis</li>
-                    <li><img src="Images/Alpaka-farm.jpg" alt="Alpaka-farms">Alpaka Farm</li>
+                    <li class="wide"><img src="Images/Association.jpeg" alt="In association with"></li>
+                    <li><img src="Images/Boka.jpeg" alt="Boka-Resa"></li>
+                    <li class="wide"><img src="Images/Tallink.jpeg" alt=Tallink"></li>
+                    <li class="tervis"><img src="Images/Tervis.jpeg" alt="Tervis"></li>
+                    <li class="alpaka"><img src="Images/Alpaka.jpeg" alt="Alpaka-farms"></li>
                 </ul>
             </div>
             <div class="footer">
-                <ul>
-                    <li>Visiting Address</li>
-                    <p>Vallvägen 8c 68051 Stöllet</p>
-                    <li>Phone:</li>
-                    <p>Tel. Office: 0563 - 81331</p>
-                    <p>Tel. Mobile: 070 5606108</p>
-                    <li>Email</li>
-                    <p>peter2@petersbuss.se</p>               
+                <ul id="footer-table">
+                    <li class="first"> <strong> Visiting Address:</strong><br><i>Vallvägen 8c <br> 68051 Stöllet</i></li> 
+                    <li class="second"><strong>Telephone:</strong><br><i>Tel. Office: 0563 - 81331<br>Tel.Mobile: 070 5606108</i></li>
+                    <li class="third"><strong>Open weekdays</strong><br><i>Monday-Wednesday <br>9:00-16:45</i></li>
+                    <li class="fourth"><strong>Email:</strong><br><i>peter1@petersbuss.se <br>peter234@petersbuss.se</i></li>
                 </ul>
+                <p class="copyright">&copy; 2022 PETERS BUSS AB INC., All rights reserved</p>
             </div>
         </body>
     </html>
-            

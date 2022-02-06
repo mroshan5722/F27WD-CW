@@ -1,0 +1,11 @@
+.headings{
+    background-color: #d4e8f8;
+    padding: 15px;
+}
+.headings:hover{
+    position: relative;
+    top: -4px;
+}
+.content p{
+line-height: 35px;
+}

@@ -1,0 +1,25 @@
+.content ul{
+    padding: 20px;
+    list-style-type: circle;
+    line-height: 35px;
+}
+.content p{
+    font-weight: bold;
+
+}
+.pics1{
+    padding: 20px;
+    background-color: #d8e4f4;
+}
+.pics1 h2{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.pics2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.pics2 .slideshow-container{
+    padding-bottom: 20px;
+}

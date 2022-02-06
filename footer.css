@@ -6,9 +6,9 @@
 .partnership li{
     display: inline-block;
     background-color: #d8e4f4;
-    padding: 3%;
+    padding: 1%;
     position: relative;
-    bottom: 10px;
+    bottom: 8px;
 }
 .partnership li img{
     width: 100px;
