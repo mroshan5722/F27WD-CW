@@ -13,7 +13,8 @@
     top:15%;
 }
 .banner h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,; 
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;  */
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 90px;
     text-shadow: 2px 2px 4px rgba(54, 54, 54, 0.664);
 }

@@ -10,9 +10,10 @@ h2{
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(49, 48, 48, 0.616);
     /* margin: 0em; */
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
     color: #084cac;
-    font:bold;
+    font:bolder; 
 }
 .content{
     padding: 20px;
