@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+   
 }
 body,ul,li,h2,h3,a{
     margin: 0;
@@ -10,13 +11,21 @@ h2{
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(49, 48, 48, 0.616);
     /* margin: 0em; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #084cac;
-    font:bold;
+    /* color: #045766; */
+    font-weight:bold;
+    padding: 0px;
 }
 .content{
-    padding: 20px;
+    padding: 20px ;
     font-size: 20px;
+}
+.content p{
+    padding: 5px;
+}
+.content ol{
+    padding: 25px;
 }
 .content li{
     line-height: 30px;
@@ -24,6 +33,7 @@ h2{
 .content a{
     text-decoration: none;
     color: #084cac;
+    /* color: #045766; */
 }
 .content a:hover{
     text-decoration: underline;

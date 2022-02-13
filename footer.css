@@ -32,6 +32,7 @@
 .footer{
     color: white;
     background-color: #084cac;
+    /* background-color: #045766; */
     padding: 20px;
     font-size: 16px;
 }
@@ -40,7 +41,7 @@
     font-size: 16px;
     font-style: italic;
     position: relative;
-    top: 28px;
+    top: 20px;
     left: 73%;
     font-family: 'Times New Roman', Times, serif;
 }
