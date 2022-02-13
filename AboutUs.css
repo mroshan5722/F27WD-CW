@@ -11,13 +11,16 @@ h2{
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(49, 48, 48, 0.616);
     /* margin: 0em; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #084cac;
     font:bold;
 }
 .content{
     padding: 20px;
     font-size: 20px;
+}
+.content p{
+    padding: 10px 0px;
 }
 .content a{
     text-decoration: none;
