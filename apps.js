@@ -108,6 +108,9 @@ let suggestions = [
     "SPA Trips",
     "Talinn Cruises",
     "About Us",
+    "Our Buses",
+    "Contacts",
+    "Common Questions",
     "TravelConditions"
 ];
 
