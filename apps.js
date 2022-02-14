@@ -19,15 +19,43 @@ inputBox.onkeyup = (e)=>{
             else if (userData.includes("sp")) {
                 webLink = "SPATripsDatesPrices.html";
             }
+            else if (userData.includes("sp")) {
+                webLink = "SPATravelinfo.html";
+            }
             else if (userData.includes("ta")) {
                 webLink = "TallinnCruises.html";
             }
             else if (userData.includes("ab")) {
                 webLink = "AboutUs.html";
             }
+            else if (userData.includes("ou")) {
+                webLink = "Buses.html";
+            }
+            else if (userData.includes("bu")) {
+                webLink = "Buses.html";
+            }
+            else if (userData.includes("co")) {
+                webLink = "Contacts.html";
+            }
+            else if (userData.includes("co")) {
+                webLink = "FAQ.html";
+            }
+            else if (userData.includes("qu")) {
+                webLink = "FAQ.html";
+            }
+            else if (userData.includes("fa")) {
+                webLink = "FAQ.html";
+            }
             else if (userData.includes("tr")) {
                 webLink = "TravelConditions.html";
             }
+            else if (userData.includes("tr")) {
+                webLink = "SPATravelinfo.html";
+            }
+            else{
+                webLink = "TravelConditions.html";
+            };
+            
             linkTag.setAttribute("href", webLink);
             console.log(webLink);
             linkTag.click();
@@ -76,11 +104,13 @@ function showSuggestions(list){
 
 let suggestions = [
     "Home",
+    "SPA Travel Info",
     "SPA Trips",
     "Talinn Cruises",
     "About Us",
     "TravelConditions"
 ];
+
 
 
 

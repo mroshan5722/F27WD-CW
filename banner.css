@@ -240,11 +240,15 @@ header{
 }
 
 .scrolling-active .nav{
-    height: 5rem;
+    height: 3rem;
 }
 .scrolling-active .dropdown-content{
     /* background-color: #c4af7e; */
     /* background-color: #045766; */
     background-color: #084cac;
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+.scrolling-active .wrapper{
+  position: relative;
+  top: -30px;
 }
