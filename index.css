@@ -75,4 +75,24 @@ h2{
     background: #d8e4f4;
     margin: 0em;
 } */
+p::selection{
+    background: #084cac;
+    color: white;
+}
+li::selection{
+    background: #084cac;
+    color: white;
+}
+h2::selection{
+    background: #084cac;
+    color: white;
+}
+h1::selection{
+    background: #084cac;
+    color: white;
+}
+a::selection{
+    background: #084cac;
+    color: white;
+}
 

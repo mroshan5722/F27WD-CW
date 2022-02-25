@@ -1,0 +1,304 @@
+@media screen and (max-width: 1030px){
+    .banner h1{
+        font-size: 90px;
+    }
+    .banner .description{
+        padding: 40px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+    .wrapper{
+        max-width: 180px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -25px;
+        height: 20px;
+        max-width: 180px;
+    }
+    .wrapper .search-input input{
+        height: 20px;
+        width: 180px;
+        font-size: 12px;
+    }
+    .wrapper .search-input .autocom-box{
+        font-size: 12px;
+        width: 180px;
+    }
+    .wrapper .search-input .autocom-box li{
+        width: 180px;
+    }
+    .wrapper .icon{
+        left: 141px;
+        top: -14px;
+        font-size: 15px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -80px;
+    }
+    header .nav-link{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .banner h1{
+        font-size: 85px;
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -100px;
+        height: 20px;
+        max-width: 180px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -140px;
+     }
+}
+
+@media screen and (max-width: 950px){
+    .banner h1{
+        font-size: 80px;
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 17px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -175px;
+        height: 20px;
+        max-width: 180px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -220px;
+    }
+    .partnership li img{
+        width: 90px;
+        height: 90px;
+    }
+    .partnership .wide img{
+        width: 180px;
+        height: 90px;
+    }
+    .partnership .tervis img{
+        width: 140px;
+        height: 140px;
+        position: relative;;
+        top: 30px;
+    }
+    .partnership .alpaka img{
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .banner h1{
+        font-size: 77px;
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 17px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -225px;
+        height: 20px;
+        max-width: 180px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -265px;
+    }
+    .partnership li img{
+        width: 85px;
+        height: 85px;
+    }
+    .partnership .wide img{
+        width: 175px;
+        height: 85px;
+    }
+    .partnership .tervis img{
+        width: 135px;
+        height: 135px;
+        position: relative;;
+        top: 30px;
+    }
+    .partnership .alpaka img{
+        width: 135px;
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .banner h1{
+        font-size: 77px; 
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -265px;
+        height: 20px;
+        max-width: 180px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -305px;
+    }
+    .partnership li img{
+        width: 75px;
+        height: 75px;
+    }
+    .partnership .wide img{
+        width: 165px;
+        height: 75px;
+    }
+    .partnership .tervis img{
+        width: 125px;
+        height: 125px;
+        position: relative;;
+        top: 30px;
+    }
+    .partnership .alpaka img{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .banner h1{
+        font-size: 75px; 
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -290px;
+        height: 20px;
+        max-width: 180px;
+    }
+    header .nav-list{
+        position: relative;
+        left: -330px;
+    }
+    .partnership li img{
+        width: 70px;
+        height: 70px;
+    }
+    .partnership .wide img{
+        width: 160px;
+        height: 70px;
+    }
+    .partnership .tervis img{
+        width: 120px;
+        height: 120px;
+        position: relative;;
+        top: 25px;
+    }
+    .partnership .alpaka img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .banner h1{
+        font-size: 70px; 
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    .wrapper{
+        max-width: 180px;
+        display: none;
+    }
+    .wrapper .search-input{
+        position: relative;
+        left: -290px;
+        height: 20px;
+        max-width: 180px;
+    }
+
+    header .nav-list{
+        position: relative;
+        left: -530px;
+        top: -10px;
+    }
+    .partnership li img{
+        width: 65px;
+        height: 65px;
+    }
+    .partnership .wide img{
+        width: 155px;
+        height: 65px;
+    }
+    .partnership .tervis img{
+        width: 115px;
+        height: 115px;
+        position: relative;;
+        top: 25px;
+    }
+    .partnership .alpaka img{
+        width: 115px;
+        height: 115px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .banner h1{
+        font-size: 65px; 
+    }
+    .banner .description{
+        padding: 45px;
+    }
+    .banner p{
+        font-size: 15px;
+    }
+    
+    .partnership li img{
+        width: 50px;
+        height: 50px;
+    }
+    .partnership .wide img{
+        width: 140px;
+        height: 50px;
+    }
+    .partnership .tervis img{
+        width: 100px;
+        height: 100px;
+        position: relative;;
+        top: 25px;
+    }
+    .partnership .alpaka img{
+        width: 100px;
+        height: 100px;
+    }
+}
