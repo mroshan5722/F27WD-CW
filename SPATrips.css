@@ -59,3 +59,47 @@ td{
 tr:hover{
     background-color: #d8e4f4;
 }
+
+@media screen and (max-width: 880px){
+    .table h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 840px){
+    .table h2{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    .table p{
+        font-size: 18px;
+    }
+    .prices th,td{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 800px){
+    .table h2{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 770px){
+    .table h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 750px){
+    .table h2{
+        font-size: 33px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .table p{
+        font-size: 16px;
+    }
+    .prices th,td{
+        font-size:16px ;
+    }
+}

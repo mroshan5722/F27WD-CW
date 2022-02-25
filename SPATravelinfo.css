@@ -24,3 +24,28 @@
 .pics2 .slideshow-container{
     padding-bottom: 20px;
 }
+@media screen and (max-width: 880px){
+    .pics1 h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 840px){
+    .pics1 h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 800px){
+    .pics1 h2{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 770px){
+    .pics1 h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 750px){
+    .pics1 h2{
+        font-size: 33px;
+    }
+}

@@ -34,3 +34,19 @@ p,li{
 ol{
     padding: 0px 20px;
 }
+@media screen and (max-width: 840px){
+    .content{
+        font-size: 18px;
+    }
+    .prohibit strong{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 750px){
+    .content{
+        font-size: 16px;
+    }
+    .prohibit strong{
+        font-size: 18px;
+    }
+}
