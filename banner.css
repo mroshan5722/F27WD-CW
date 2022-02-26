@@ -14,7 +14,6 @@
   }
   .banner h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,; 
-    /* font-family: 'Josefin Sans', sans-serif; */
     font-size: 100px;
     text-shadow: 2px 2px 4px rgba(54, 54, 54, 0.664);
   }
@@ -53,7 +52,6 @@
     top: 4.5%;
     left: 47.5%;
     transform:translate(-100%,-50% );
-    /* background: #084cac; */
     height: 25px;
     border-radius: 40px; 
     padding: 10px;
@@ -104,7 +102,6 @@
     .dropdown{
     float: left;
     overflow: hidden;
-    /* padding: 20px 16px; */
     font-size: 20px;  
     border: none;
     outline: none;
@@ -119,7 +116,6 @@
     display: none;
     position: absolute;
     min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
     }
     
@@ -149,11 +145,6 @@
     box-sizing: border-box;
 }
 
-/* html{
-    font-size: 13px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
-
 header{
     width: 100%;
     position: fixed;
@@ -172,11 +163,7 @@ header{
 
 .nav{
     width: 100%;
-    /* height: 10rem; */
     position: relative;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     border-bottom: 2px solid rgba(255,255,255,.05);
     transition: height .5s ease;
     top: 0;
@@ -209,23 +196,7 @@ header{
     position: relative;
     padding:20px 15px;
 }
-/* underline when hover over links */
-/* .nav-link::after{
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform .5s ease;
-}
 
-.nav-link:hover::after{
-    transform: scaleX(1);
-} */
 .nav-link:hover{
     background: rgba(211, 211, 211, 0.452);
 
@@ -233,8 +204,6 @@ header{
 
 /*Apply styles after scroll*/
 .scrolling-active{
-    /* background-color: #c4af7e; */
-    /* background-color: #045766; */
     background-color: #084cac;
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
@@ -243,8 +212,6 @@ header{
     height: 3rem;
 }
 .scrolling-active .dropdown-content{
-    /* background-color: #c4af7e; */
-    /* background-color: #045766; */
     background-color: #084cac;
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }

@@ -8,9 +8,7 @@ body,ul,li,h2,h3,a{
 }
 h2{
     font-size: 50px;
-    text-shadow: 2px 2px 4px rgba(49, 48, 48, 0.616);
-    /* margin: 0em; */
-    
+    text-shadow: 2px 2px 4px rgba(49, 48, 48, 0.616);    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #084cac;
     font:bolder; 

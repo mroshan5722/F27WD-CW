@@ -1,24 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} */
-
-/* body{
-  background: rgb(255, 255, 255);
-  padding: 0 20px;
-} */
-
-/* ::selection{
-  color: #fff;
-  background: #000;
-} */
 
 .wrapper{
   max-width: 220px;
-  /* margin: 150px auto; */
  position: relative;
  bottom: 55px;
  left: 370px;
@@ -49,8 +31,6 @@
 
 .search-input .autocom-box{
   background-color: #fff;
-  /* padding: 0; */
-  /* opacity: 1; */
   pointer-events: none;
   max-height: 40px;
   overflow-y: auto;
@@ -59,7 +39,6 @@
 }
 
 .search-input.active .autocom-box{
-  /* padding: 10px 8px; */
   opacity: 1;
   pointer-events: auto;
 }
