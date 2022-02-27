@@ -13,10 +13,12 @@ h2{
     color: #084cac;
     font:bolder; 
 }
+
 .content{
     padding: 20px;
     font-size: 20px;
 }
+
 @media screen and (max-width: 840px){
     .content{
         font-size: 18px;
