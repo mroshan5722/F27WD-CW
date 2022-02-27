@@ -80,6 +80,10 @@ h1::selection{
     background: #084cac;
     color: white;
 }
+h3::selection{
+    background: #084cac;
+    color: white;
+}
 a::selection{
     background: #084cac;
     color: white;
